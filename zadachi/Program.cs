@@ -123,11 +123,7 @@ double MinMaxDiff(double[] solid)
             max = solid[i];
         }
     }
-    if (min < 0)
-    {
-        diff = max + min;
-    }
-    else { diff = max - min; }
+    diff = max - min;
     return diff;
 }
 void PrintDoubMassif(double[] solid)
